@@ -91,30 +91,30 @@ header a:hover{
   font-size:20px
 }
 
-/* Mid */
-#mid{
+/* Vragen */
+#vragen{
   padding:15px;
   color:#ffffff;
   background:#35424a
 }
 
-#mid h1{
+#vragen h1{
   float:left;
 }
 
-#mid .box{
+#vragen .box{
   text-align:center;
 }
-#mid p{
+#vragen p{
   text-align:center;
 }
 
-#mid form {
+#vragen form {
   float:right;
   margin-top:15px;
 }
 
-#mid input[type="email"]{
+#vragen input[type="email"]{
   padding:4px;
   height:25px;
   width:250px;
@@ -129,16 +129,54 @@ header a:hover{
 #bottom .box{
 
   text-align:center;
-  width:30%;
+
   padding:10px;
 }
 
 #bottom .box img{
   width:90px;
 }
+/* Mid */
+#mid{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a;
+  text-align: center;
+
+
+#mid{
+  margin-top:20px;
+}
+
+#mid .box{
+
+  padding:10px;
+}
+
+#mid .box img{
+  width:90px;
+
+}
+
+/* Top */
+#top{
+  padding:15px;
 
 
 
+#top{
+  margin-top:20px;
+}
+
+#top .box{
+  text-align: center;
+  padding:10px;
+}
+
+#top .box img{
+  width:90px;
+
+}
 
   header{
     padding-bottom:20px;
@@ -157,4 +195,8 @@ header a:hover{
     width:100%;
     margin-bottom:5px;
   }
+}
+
+#footer {
+  background:#FA6304;
 }
